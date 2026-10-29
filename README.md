@@ -21,6 +21,8 @@ Deploy only a Vercel preview after the local build passes. Production deployment
 
 ## Read first
 
+For continuity after the GitHub account change, read [the agent handoff](docs/AGENT_HANDOFF.md), including the latest owner instructions and verified implementation status.
+
 1. [docs/Eman_Bakery_Master_Solution_Architecture_Package.md](docs/Eman_Bakery_Master_Solution_Architecture_Package.md) — binding source of truth.
 2. [docs/STACK_DECISION.md](docs/STACK_DECISION.md) — what is hosted where, and why Vercel is not optional for the web app.
 3. [docs/CODEX_SEQUENCE.md](docs/CODEX_SEQUENCE.md) — what Codex may implement, and what it must not implement yet.
