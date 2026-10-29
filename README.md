@@ -2,7 +2,22 @@
 
 Private source repository for the Jeddah wholesale bread system: daily dispatch, distributor price matrices, server-side quantity and maximum resale-price caps, a non-VAT company-to-distributor ledger, and ZATCA Phase 2 tax invoices issued in Eman Bakery’s name through Odoo Online 19.
 
-This repository currently holds the source-of-truth documentation and the ordered Codex prompts. Application code is not started yet. Do not treat an empty preview as a working ledger.
+This repository contains the source-of-truth documentation, ordered prompts, and the Milestone 01 Next.js App Router + TypeScript shell. Company-staff and distributor pages are placeholders. Authentication, live data, business writes, and integrations are not connected. This is not a working ledger.
+
+## Local development
+
+Use Node.js 20.9 or newer (validated with Node.js 24) and npm:
+
+```sh
+npm ci
+npm run dev
+```
+
+Run `npm run build` for a production build, `npm start` to serve it, and `npm run typecheck` for a TypeScript check. No environment variables or external services are required.
+
+Routes: `/`, `/company/dispatch`, `/company/reconciliation`, `/distributor/invoices/new`, `/distributor/invoices`. Navigation areas are UI previews, not authorization boundaries. Business buttons are disabled.
+
+Deploy only a Vercel preview after the local build passes. Production deployment and schema work are outside Milestone 01.
 
 ## Read first
 

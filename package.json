@@ -1,0 +1,1 @@
+{"name":"eman-bakery-ops-platform","version":"0.1.0","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start","typecheck":"tsc --noEmit"},"dependencies":{"next":"16.4.3","react":"19.3.1","react-dom":"19.3.1"},"devDependencies":{"typescript":"^5.9.3","@types/node":"^24","@types/react":"^19","@types/react-dom":"^19"},"engines":{"node":">=20.9.0"}}
